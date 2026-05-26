@@ -1,0 +1,191 @@
+.partido-futbol-page{
+  padding:2rem;
+  width:100%;
+  min-height:100vh;
+  background:#737373;
+  box-sizing:border-box;
+  color:#222;
+}
+
+.partido-futbol-back{
+  display:inline-block;
+  margin-bottom:1.5rem;
+  color:#c7a64b;
+  text-decoration:none;
+  font-weight:700;
+}
+
+.partido-futbol-shell{
+  max-width:900px;
+  margin:0 auto;
+  border-radius:18px;
+  padding:18px;
+}
+
+.partido-futbol-title{
+  margin:0 0 0.75rem 0;
+  color:#d4af37;
+}
+
+.partido-futbol-pill{
+  background:rgba(248,249,250,0.95);
+  border-radius:999px;
+  padding:8px 12px;
+  font-weight:800;
+  color:#737373;
+}
+
+.partido-futbol-section{
+  border:2px solid #e0e0e0;
+  background:#fff;
+  border-radius:12px;
+  padding:14px;
+  margin-top:14px;
+}
+
+.partido-futbol-section-title{
+  font-weight:950;
+  color:#d4af37;
+}
+
+
+.partido-futbol-scorebar{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.partido-futbol-team{
+  flex:1;
+  min-width:220px;
+  border:2px solid #e0e0e0;
+  border-radius:12px;
+  padding:12px;
+  background:rgba(248,249,250,0.95);
+}
+
+.partido-futbol-team-name{
+  font-weight:950;
+  color:#737373;
+}
+
+.partido-futbol-team-score{
+  margin-top:8px;
+  font-weight:950;
+  color:#c7a64b;
+  font-size:1.8rem;
+}
+
+.partido-futbol-form-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:12px;
+}
+
+@media (max-width: 700px){
+  .partido-futbol-form-grid{grid-template-columns:1fr;}
+}
+
+.partido-futbol-field{
+  display:flex;
+  flex-direction:column;
+}
+
+.partido-futbol-pases-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.partido-futbol-pases-input{
+  width:120px;
+  padding:8px 10px;
+  border:2px solid #e0e0e0;
+  border-radius:12px;
+  background:#fff;
+  color:#737373;
+  font-weight:700;
+}
+
+.partido-futbol-pases-input:disabled{
+  opacity:0.6;
+  cursor:not-allowed;
+  background:#f4f4f4;
+  color:#8a8a8a;
+}
+
+
+.partido-futbol-field label{
+  font-weight:800;
+  color:#737373;
+  margin-bottom:6px;
+}
+
+.partido-futbol-field select{
+  padding:10px;
+  border:2px solid #e0e0e0;
+  border-radius:12px;
+  background:#fff;
+  color:#737373;
+  font-weight:700;
+}
+
+.partido-futbol-field input{
+  padding:10px;
+  border:2px solid #e0e0e0;
+  border-radius:12px;
+  background:#fff;
+  color:#737373;
+  font-weight:700;
+}
+
+.partido-futbol-actions{
+  margin-top:12px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+.partido-futbol-btn{
+  padding:10px 14px;
+  border-radius:12px;
+  border:2px solid #e0e0e0;
+  background:#fff;
+  color:#737373;
+  font-weight:900;
+  cursor:pointer;
+}
+
+.partido-futbol-btn-primary{
+  background:#d4af37;
+  border-color:#d4af37;
+  color:#fff;
+}
+
+.partido-futbol-divider{
+  margin:14px 0;
+  border-top:1px dashed #ddd;
+}
+
+.partido-futbol-log{
+  margin-top:10px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  max-height:220px;
+  overflow:auto;
+}
+
+.partido-futbol-log-item{
+  border:2px solid #e0e0e0;
+  background:rgba(248,249,250,0.95);
+  border-radius:12px;
+  padding:10px 12px;
+  color:#737373;
+  font-weight:750;
+}
+

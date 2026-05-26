@@ -1,0 +1,10 @@
+Plan (partidoLol finalizado -> mostrar datos guardados)
+1) En partidoLol.jsx calcular matchKey y leer partidosStore[matchKey].
+2) Si hay match.finalizado===true, pre-cargar selectedLocalBySlot/selectedAwayBySlot con localTeamPlayers/awayTeamPlayers.
+3) Para kills/deaths/assists:
+   - Añadir estado para valores por slot (localStatsBySlot/awayStatsBySlot)
+   - Si finalizado y existen lolStats.local/away con playerId, rellenar esos inputs
+   - Si no, mantener inputs vacíos.
+4) Si finalizado, deshabilitar inputs.
+5) Sustituir readStatsFromColumn basado en DOM por uso de esos estados (opcional, pero recomendado).
+

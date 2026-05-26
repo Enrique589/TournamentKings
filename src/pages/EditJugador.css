@@ -1,0 +1,183 @@
+.edit-jugador-page {
+  padding: 2rem;
+  width: 100%;
+  background: #737373;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.edit-jugador-page .back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #c7a64b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.edit-jugador-page .edit-jugador-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: rgba(248, 249, 250, 0.95);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.edit-jugador-header {
+  margin-bottom: 18px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+}
+
+.edit-jugador-title {
+  font-size: 1.6rem;
+  font-weight: 950;
+  color: #737373;
+  margin-bottom: 6px;
+}
+
+.edit-jugador-actions {
+  margin-left: auto;
+}
+
+.edit-jugador-actions-group {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.edit-jugador-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.edit-jugador-btn-primary {
+  background: #c7a64b;
+  color: #ffffff;
+}
+
+.edit-jugador-btn-secondary {
+  background: #737373;
+  color: #ffffff;
+}
+
+.edit-jugador-section {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 2px solid rgba(224, 224, 224, 0.8);
+}
+
+.edit-jugador-section-title {
+  margin: 0 0 12px;
+  color: #c7a64b;
+  font-weight: 950;
+  font-size: 1.15rem;
+}
+
+.edit-jugador-kv {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 10px 14px;
+}
+
+.edit-jugador-k {
+  color: #737373;
+  font-weight: 850;
+}
+
+.edit-jugador-v {
+  color: #737373;
+  font-weight: 650;
+}
+
+.edit-jugador-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 2px solid rgba(224, 224, 224, 0.9);
+  outline: none;
+  font-weight: 750;
+  color: #737373;
+  box-sizing: border-box;
+}
+
+.edit-jugador-input:focus {
+  border-color: #c7a64b;
+}
+
+.edit-jugador-empty {
+  padding: 14px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  color: #737373;
+  font-weight: 700;
+}
+
+
+.edit-jugador-tabs-wrap {
+
+  max-width: 720px;
+  margin: 14px auto 0;
+  background: rgba(248, 249, 250, 0.95);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.edit-jugador-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.edit-jugador-tab {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 950;
+  background: #737373;
+  color: #ffffff;
+}
+
+.edit-jugador-tab-active {
+  background: #c7a64b;
+}
+
+.edit-jugador-tab-panel {
+  padding-top: 6px;
+}
+
+.edit-jugador-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.edit-jugador-stat {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 14px;
+  padding: 14px 12px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.edit-jugador-stat-num {
+  font-size: 1.2rem;
+  font-weight: 950;
+  color: #737373;
+  margin-bottom: 4px;
+}
+
+.edit-jugador-stat-label {
+  color: #737373;
+  font-weight: 800;
+}
+

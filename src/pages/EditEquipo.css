@@ -1,0 +1,283 @@
+.edit-equipo-page {
+  padding: 2rem;
+  width: 100%;
+  background: #737373;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.edit-equipo-page .back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #c7a64b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.edit-equipo-page h1 {
+  color: #d4af37;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.edit-equipo-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: rgba(248, 249, 250, 0.95);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.edit-equipo-header {
+  margin-bottom: 18px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+}
+
+.edit-equipo-title {
+  font-size: 1.6rem;
+  font-weight: 950;
+  color: #737373;
+  margin-bottom: 6px;
+}
+
+.edit-equipo-actions {
+  margin-left: auto;
+}
+
+.edit-equipo-actions-group {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.edit-equipo-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.edit-equipo-btn-primary {
+  background: #c7a64b;
+  color: #ffffff;
+}
+
+.edit-equipo-btn-secondary {
+  background: #737373;
+  color: #ffffff;
+}
+
+.edit-equipo-meta {
+  color: #737373;
+  font-weight: 700;
+}
+
+.team-id {
+  color: #c7a64b;
+}
+
+.edit-equipo-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 2px solid rgba(224, 224, 224, 0.9);
+  outline: none;
+  font-weight: 750;
+  color: #737373;
+  box-sizing: border-box;
+}
+
+.edit-equipo-input:focus {
+  border-color: #c7a64b;
+}
+
+
+
+.edit-equipo-section {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 2px solid rgba(224, 224, 224, 0.8);
+}
+
+.edit-equipo-section-title {
+  margin: 0 0 12px;
+  color: #c7a64b;
+  font-weight: 950;
+  font-size: 1.15rem;
+}
+
+.edit-equipo-kv {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 10px 14px;
+}
+
+.edit-equipo-k {
+  color: #737373;
+  font-weight: 850;
+}
+
+.edit-equipo-v {
+  color: #737373;
+  font-weight: 650;
+}
+
+.edit-equipo-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.edit-equipo-stat {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 12px;
+  text-align: center;
+}
+
+.edit-equipo-stat-num {
+  color: #c7a64b;
+  font-weight: 950;
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.edit-equipo-stat-label {
+  color: #737373;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+  .edit-equipo-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .edit-equipo-kv {
+    grid-template-columns: 1fr;
+  }
+
+  .edit-equipo-players-add-controls {
+    flex-direction: column;
+  }
+}
+
+.edit-equipo-empty {
+  padding: 14px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  color: #737373;
+  font-weight: 700;
+}
+
+.edit-equipo-players-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.edit-equipo-player-item {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.edit-equipo-player-item--marked {
+  background: #fdecec;
+  border-color: rgba(231, 76, 60, 0.35);
+}
+
+.edit-equipo-player-summary {
+  list-style: none;
+  cursor: pointer;
+  color: #737373;
+  font-weight: 950;
+  font-size: 1.05rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+
+.edit-equipo-player-summary::-webkit-details-marker {
+  display: none;
+}
+
+.edit-equipo-player-remove {
+  margin-left: auto;
+  border: none;
+  background: #e74c3c;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 900;
+  line-height: 1;
+  border-radius: 10px;
+  width: 36px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-equipo-player-remove:hover {
+  background: #ff6b6b !important;
+}
+
+
+
+.edit-equipo-player-remove-icon {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+
+
+.edit-equipo-player-meta {
+  color: #737373;
+  font-weight: 650;
+  font-size: 0.95rem;
+}
+
+.edit-equipo-players-add {
+  margin-top: 12px;
+}
+
+.edit-equipo-players-add-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #c7a64b;
+  font-weight: 950;
+  font-size: 1.05rem;
+}
+
+.edit-equipo-players-add-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-equipo-select {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 2px solid rgba(224, 224, 224, 0.9);
+  outline: none;
+  font-weight: 750;
+  color: #737373;
+  background: #ffffff;
+}
+
+

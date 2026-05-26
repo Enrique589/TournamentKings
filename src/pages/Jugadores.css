@@ -1,0 +1,156 @@
+.teams-page {
+  padding: 2rem;
+  width: 100%;
+  background: #737373;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.teams-page .back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #c7a64b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.teams-page h1 {
+  color: #d4af37;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.teams-layout {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 18px;
+  align-items: start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.teams-card {
+  background: rgba(248, 249, 250, 0.95);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.teams-card h2 {
+  margin: 0 0 12px;
+  color: #c7a64b;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.create-team-form label {
+  display: block;
+  font-weight: 700;
+  color: #737373;
+  margin-bottom: 6px;
+}
+
+.create-team-form input {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  background: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+.create-team-form input:focus {
+  border-color: #c7a64b;
+  box-shadow: 0 0 0 4px rgba(199, 166, 75, 0.15);
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 1.05rem;
+  background: #c7a64b;
+  color: #737373;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(199, 166, 75, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(199,166,75,0.6);
+}
+
+.teams-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.teams-row {
+  display: grid;
+  grid-template-columns: 1fr 220px 160px;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  align-items: center;
+}
+
+.teams-row-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.teams-row-link:hover {
+  border-color: #c7a64b;
+  box-shadow: 0 8px 25px rgba(199, 166, 75, 0.18);
+  transform: translateY(-1px);
+}
+
+.teams-edit-indicator {
+  color: #c7a64b;
+  font-weight: 900;
+}
+
+.teams-header {
+  background: transparent;
+  border: none;
+  font-weight: 900;
+  color: #737373;
+}
+
+.teams-actions-col {
+  text-align: right;
+}
+
+.teams-empty {
+  color: #737373;
+  font-weight: 700;
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .teams-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .teams-row {
+    grid-template-columns: 1fr;
+  }
+
+  .teams-actions-col {
+    text-align: left;
+  }
+}
+
+
+
