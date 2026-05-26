@@ -170,11 +170,7 @@ function Login() {
           </div>
         </form>
 
-        <div className="login-demo">
-          <p><strong>Credenciales de prueba (solo login):</strong></p>
-          <p>Email: joven@burjassot.es</p>
-          <p>Contraseña: joven2024</p>
-        </div>
+
 
         <div className="login-back">
           <Link to="/" className="back-link">← Volver al inicio</Link>
